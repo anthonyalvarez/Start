@@ -46,6 +46,15 @@ ul {
  *
  */
 
+/*
+My changes
+*/
+
+ .header, .nav {
+  border: dashed red;
+ }
+
+
 .header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
@@ -140,7 +149,7 @@ main {
  */
 
 .hero {
-  float: left;
+  /* float: left; */
   width: 480px;
   position: relative;
   background-image: url("./images/dog.jpg");
@@ -168,7 +177,7 @@ main {
  */
 
 .top-news {
-  float: right;
+  /* float: right; */
   width: 320px;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
@@ -215,7 +224,7 @@ main {
 
 .scores {
   width: 480px;
-  float: left;
+  /* float: left; */
   padding-top: 1em;
 }
 
@@ -263,7 +272,7 @@ main {
  */
 
 .weather {
-  float: right;
+  /* float: right; */
   width: 320px;
   padding: 1em;
 }
