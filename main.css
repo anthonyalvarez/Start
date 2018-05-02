@@ -74,7 +74,7 @@ My changes
 }
 
 .header__inner {
-    width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -103,7 +103,7 @@ My changes
  */
 
 .nav {
-    width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,6 +129,7 @@ My changes
     color: #616161;
     min-width: 48px;
     min-height: 48px;
+    padding: 1.5em;
 }
 
 .nav a:hover {
@@ -136,6 +137,7 @@ My changes
     color: #212121;
     min-width: 48px;
     min-height: 48px;
+    padding: 1.5em;
 }
 
 
@@ -147,7 +149,7 @@ My changes
 
 main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    width: 800px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -399,4 +401,5 @@ footer li {
 footer a {
     text-decoration: none;
     color: #333;
+    padding: 1.5em;
 }
